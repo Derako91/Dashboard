@@ -3,7 +3,7 @@ import './globals.css'
 
 export const metadata: Metadata = {
   title: 'HOME OS Dashboard',
-  description: 'Gemeinsames Smart Home Dashboard',
+  description: 'Gemeinsames Smart Home Dashboard mit Home Assistant',
 }
 
 export default function RootLayout({
@@ -13,7 +13,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="de">
-      <body>{children}</body>
+      <body className="bg-[#0b0f14] text-white">{children}</body>
     </html>
   )
 }
