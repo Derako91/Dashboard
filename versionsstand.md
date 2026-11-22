@@ -21,7 +21,7 @@ naechster: dennis
 haengt_ab_von: []
 branch: plan/statuskopf
 commit: 2cc3fe61f10661ce07283d577bc385b2b11a1a7f
-revier: [AGENTS.md, .gitattributes, .github/workflows/devhub.yml]
+revier: [AGENTS.md, .gitattributes]
 pruefstufe: behauptet
 tests: []
 frage: null
