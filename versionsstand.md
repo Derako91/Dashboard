@@ -20,7 +20,7 @@ zustand: uebergabe
 naechster: dennis
 haengt_ab_von: []
 branch: plan/statuskopf
-commit: 2cc3fe61f10661ce07283d577bc385b2b11a1a7f
+commit: e7c9e405cfd0418fcd7c689a03bd43387ba3ea9e
 revier: [AGENTS.md, .gitattributes]
 pruefstufe: behauptet
 tests: []
@@ -29,7 +29,7 @@ aktualisiert: 2026-11-22T20:30Z
 ```
 
 - **Problem:** Projekt war in der DevHub-Übersicht nicht sichtbar (Status nur als Freitext); PRs wurden nicht geprüft.
-- **Funktioniert:** Statuskopf mit Projektblock und diesem Paket; bisheriger Inhalt unverändert als Historie; Regeln in AGENTS.md; `.gitattributes`; Workflow `devhub.yml` (PR-Prüfung aus Derako91/Devhub). Geänderte Dateien: .gitattributes, .github/workflows/devhub.yml, AGENTS.md, versionsstand.md. Kein Produktcode.
+- **Funktioniert:** Statuskopf mit Projektblock und diesem Paket; bisheriger Inhalt unverändert als Historie; Regeln in AGENTS.md; `.gitattributes`. Keine automatische PR-Prüfung: öffentliches Repo, GitHub erlaubt keine Actions aus dem privaten Devhub (Lauf im PR schlug deshalb fehl, Workflow wieder entfernt). Geänderte Dateien: .gitattributes, AGENTS.md, versionsstand.md. Kein Produktcode.
 - **Geprüft:** Statuskopf mit dem DevHub-Validator und die PR-Prüfung lokal gegen diesen Branch (Cloud, 22.11.2026) – gültig. Die Prüfung im PR selbst läuft per GitHub Actions.
 - **Offen:** Freigabe durch Dennis (Merge). Offene Punkte aus der Historie in Pakete übertragen (nächster Arbeits-PR oder Planungs-PR). Laufende PRs anderer Agenten brauchen beim nächsten Push ein eigenes Paket.
 - **Nächster Schritt:** Dennis prüft den PR.
@@ -39,6 +39,7 @@ aktualisiert: 2026-11-22T20:30Z
 | Datum | Änderung | Test |
 | --- | --- | --- |
 | 22.11.2026 | Umstellung auf Statuskopf (Claude), Commit `2cc3fe6` | Validator + PR-Prüfung lokal: gültig |
+| 22.11.2026 | Workflow entfernt (öffentliches Repo), Commit `e7c9e40` | Validator lokal: gültig |
 
 ## Historie
 
