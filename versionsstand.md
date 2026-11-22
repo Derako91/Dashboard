@@ -10,6 +10,8 @@ freigabe: dennis
 
 Der bisherige Stand steht **unverändert** unter „Historie“. Offene Punkte von dort sind noch **nicht** in Pakete übertragen – das geschieht mit dem nächsten Arbeits-PR (eigenes Paket) oder per Planungs-PR von Dennis.
 
+Laut Historie **ruht das Projekt** (30.10.2026): kein aktuelles Problem; langfristige Idee einer touchoptimierten Tablet-Ansicht. Deshalb keine Pakete.
+
 ## Paket U – Umstellung auf Statuskopf
 
 ```yaml devhub-paket
